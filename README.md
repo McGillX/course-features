@@ -7,7 +7,7 @@ These features are part of:
 
 
 
-atoc185x_course_info_sidebar.html	
+<strong>atoc185x_course_info_sidebar.html</strong>	
 
 Enriched sidebar for CHEM181x. Contains a UTC clock for students to be able to sync their local time with the deadlines within your course. Also contains profile pictures from profs and TAs, icons for handouts, links to discussion posts for profs and TAs, etc.
 
