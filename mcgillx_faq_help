@@ -1,0 +1,275 @@
+<p>
+<script>// <![CDATA[
+$(function() {
+  $( "#tabs" ).tabs();
+  });
+  $(function() {
+    $( "#accordion1" ).accordion({heightStyle: "content",collapsible: true, active: false,});
+    $( "#accordion2" ).accordion({heightStyle: "content", collapsible: true, active: false,});
+    $( "#accordion3" ).accordion({heightStyle: "content", collapsible: true, active: false,});
+    $( "#accordion4" ).accordion({heightStyle: "content", collapsible: true, active: false,});
+    $( "#accordion5" ).accordion({heightStyle: "content", collapsible: true, active: false,});
+    $( "#accordion6" ).accordion({heightStyle: "content",collapsible: true, active: false,});
+    $( "#accordion7" ).accordion({heightStyle: "content",collapsible: true, active: false,});
+	$( "#accordion8" ).accordion({heightStyle: "content",collapsible: true, active: false,});
+  				});
+// ]]></script>
+</p>
+<div align="center" width="100%"><img src="/static/ATOC185x_FAQ_Banner.png" alt="ATOC185x_FAQ_Banner.png"/></div>
+<style>
+	#accordion1 h3, #accordion2 h3, #accordion3 h3, #accordion4 h3, #accordion5 h3, #accordion6 h3, #accordion7 h3, #accordion8 h3
+	{
+		border-radius: 5px;
+      	border:none;
+      	background:white;
+		text-decoration: none;
+		color:#000000;
+		font-weight:bold;
+	}
+	#tabs ul li
+	{
+		border-radius: 5px;
+      	border:none;
+      	background:white;
+			 margin:0;
+      padding:0;
+	}
+
+	#tabs ul a
+	{
+    text-decoration: none;
+	color:#000000;
+  	font-weight:bold;
+	}
+
+	#tabs ul a:hover 
+	{
+    background-color: #f1f1f1;
+	}
+	#tabs .ui-tabs-active
+	{
+	background: #555555;
+    color:white;
+	}
+   #tabs .ui-tabs-active a
+   {
+    color:white;
+	}
+  
+   #tabs .ui-tabs-active a:hover
+   {
+    background-color: #555555;
+	}
+    .ui-tabs .ui-tabs-nav
+	{
+            text-align: center;
+    }
+
+    .ui-tabs .ui-tabs-nav li
+	{
+            float: none !important;
+            display: inline-block;
+    }
+	#tabs ul 
+	{ 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+	}
+	  .ui-tabs 
+	  {
+
+	padding:0;
+
+	}
+
+</style>
+<div id="tabs">
+<!--UPPER NAVIGATION TABS-->
+<ul align="center" style="background-color: #dedede; background-image: none; border: none;">
+	<li><a href="#tabs-1">How-To Videos</a></li>
+	<li><a href="#tabs-2">CourseWare</a></li>
+	<li><a href="#tabs-3">Discussion</a></li>
+	<li><a href="#tabs-4">Progress (Grading)</a></li>
+	<li><a href="#tabs-5">Maps</a></li>
+	<li><a href="#tabs-6">Help</a></li>
+</ul>
+<!-- HOW TO VIDEOS -->
+<div id="tabs-1">
+<div id="accordion1">
+<h3 style="padding-left: 30px;">How do I navigate the course?</h3>
+<div>
+<div><iframe src="//www.youtube.com/embed/3wvvA5hMsYw?rel=0" width="640" height="360"></iframe></div>
+</div>
+<h3 style="padding-left: 30px;">How do I use the discussion forum?</h3>
+
+<div><iframe src="//www.youtube.com/embed/qBftvW-EKgc?rel=0" width="640" height="360"></iframe>
+<p>Please have a look at the <a href="https://courses.edx.org/courses/McGillX/ATOC185x/2T2014/discussion/forum" target="_blank"> Discussion &amp; Collaboration Guidelines</a>.</p>
+</div>
+
+<h3 style="padding-left: 30px;">How do I use the video player?</h3>
+<div>
+<div><iframe src="//www.youtube.com/embed/LX7anZlsXYA?rel=0" width="640" height="360"></iframe></div>
+</div>
+<h3 style="padding-left: 30px;">How do I use Zeemaps?</h3>
+<div>
+<div><iframe src="//www.youtube.com/embed/Tf8dFMUW7WM?rel=0" width="640" height="360"></iframe></div>
+</div>
+</div>
+</div>
+<!--COURSEWARE-->
+<div id="tabs-2">
+<div id="accordion2">
+<h3 style="padding-left: 30px;">Can I access the material at any time?</h3>
+<div>
+<p>If you remain registered in the course you will still have access to the materials after the course ends.</p>
+</div>
+<h3 style="padding-left: 30px;">I don't understand the answer to this question?</h3>
+<div>
+<p>Start by looking for an explanation using the <b>Show Answer</b> button that appears after your first attempt. If you did&nbsp;not find a satisfactory answer refer back to the video material or post your question in the discussion forum. Refer to the discussion forum.</p>
+</div>
+<h3 style="padding-left: 30px;">What is this course about / What is this course not about?</h3>
+<div>
+<p>Please see the course <a href="https://courses.edx.org/courses/McGillX/ATOC185x/2T2014/109d5374b52040e2a8b737cf90c5618a/" target="_blank">Syllabus. </a></p>
+</div>
+<h3 style="padding-left: 30px;">Do I have to read the Optional Readings and the References?</h3>
+<div>
+<p>No, these resources are provided for those who might desire additional resources.</p>
+</div>
+<h3 style="padding-left: 30px;">How do I speed up / slow down / search the transcript / remove subtitles for a video?</h3>
+<div>
+<div><iframe src="//www.youtube.com/embed/LX7anZlsXYA?rel=0" width="640" height="360"></iframe></div>
+</div>
+<h3 style="padding-left: 30px;">I'm having trouble navigating the course, how do I start a Lesson?</h3>
+<div>
+<div><iframe src="//www.youtube.com/embed/3wvvA5hMsYw?rel=0" width="640" height="360"></iframe></div>
+</div>
+</div>
+</div>
+<!--DISCUSSION-->
+<div id="tabs-3">
+<div id="accordion3">
+<h3 style="padding-left: 30px;">How do I use the discussion board?</h3>
+<div><iframe src="//www.youtube.com/embed/qBftvW-EKgc?rel=0" width="640" height="360"></iframe>
+<p>Please have a look at the <a href="https://courses.edx.org/courses/McGillX/ATOC185x/2T2014/discussion/forum" target="_blank"> Discussion &amp; Collaboration Guidelines </a>.</p>
+</div>
+<h3 style="padding-left: 30px;">How do I follow a post?</h3>
+<div>
+<p>Click the star in the upper right hand corner to add a post to your followed posts list. You can find the posts you are following by going to "Posts I'm Following" under the discussion categories tab.</p>
+<div><img src="/static/McGillX_FAQ_Posts-Following.png" alt="posts following" /></div>
+</div>
+<h3 style="padding-left: 30px;">Can I delete or modify my posts?</h3>
+<div>
+<p>No. However, you may reply to your own post with any corrections you wish to make.</p>
+</div>
+<h3 style="padding-left: 30px;">How do I view the discussion in progress in the courseware?</h3>
+<div>
+<p>Click the "Show discussion" icon.</p>
+<div><img src="/static/McGillX_FAQ_Show-Discussion.png" alt="show discussion" /></div>
+</div>
+<h3 style="padding-left: 30px;">How do I search the discussion?</h3>
+<div>
+<p>Click the magifying glass icon.</p>
+<div><img src="/static/McGillX_FAQ_Search-Discussion.png" alt="Diagram showing how to search discussion" /></div>
+</div>
+<h3 style="padding-left: 30px;">How do I find my own posts or another users posts?</h3>
+<div>
+<p>Click the magifying glass icon and enter the username whose posts you wish to find (note, the search is case sensitive).</p>
+<div><img src="/static/McGillX_FAQ_Search-Discussion-Username.png" alt="Diagram showing how to search discussion" /></div>
+</div>
+<h3 style="padding-left: 30px;">How do I add an image to my discussion post?</h3>
+<div>
+<p>When creating your post, click the square, green and blue icon that appears above the text box.</p>
+<div><img src="/static/McGillX_FAQ_Discussion-Post-Image.png" alt="Diagram showing how to post image on discussion" /></div>
+</div>
+</div>
+</div>
+<!--PROGRESS GRADING -->
+<div id="tabs-4">
+<div id="accordion4">
+<h3 style="padding-left: 30px;">Where are my scores for the entrance survey?</h3>
+<div>
+<p>You are not graded on the entrance survey. Once completed your scores will be appear as 0/0.</p>
+<div><img src="/static/McGillX_FAQ_Entrance-Survey.png" alt="entrance survey" /></div>
+</div>
+<!--
+<h3 style="padding-left: 30px;">Why are the results of my activities/assignments/other graded content are not showing under "Progress?"</h3>
+<div>
+<ol>
+	<li>Go back and make sure you have hit "Check". Clicking "Save" will not submit your answer.</li>
+	<li>Hover your mouse over the red bars in the progress chart in order to understand what they encompass. Some red bars are a combination of multiple activities, rather than an individual activity. (see image below)</li>
+</ol>
+<div><img src="/static/McGillX_FAQ_Read-Progress-Tab.png" alt="entrance survey" /></div>
+</div>
+-->
+<h3 style="padding-left: 30px;">Problem Scores versus Practice Scores?</h3>
+<div>
+<p>Graded sections have problem scores, while ungraded sections have practice scores.</p>
+</div>
+<h3 style="padding-left: 30px;">When are assignments / tests / other graded items due?</h3>
+<div>
+<p>The assignment deadlines appear in Coordinated 24 hour Universal Time (UTC). We advise students to submit their assignments a <strong>minimum</strong> of 5 minutes before the deadline to avoid synchronization issues. Click <a href="https://courses.edx.org/courses/McGillX/ATOC185x/2T2014/109d5374b52040e2a8b737cf90c5618a/" target="_blank">here</a> to see the course syllabus for further details regarding specific deadlines.</p>
+</div>
+<h3 style="padding-left: 30px;">Do I have to complete all the course content?</h3>
+<div>
+<p>You are free to explore as much or as little of the course content as you like. However, if you wish to attain the certificate of completion it is advisable that you complete the graded content. See the course <a href="https://courses.edx.org/courses/McGillX/ATOC185x/2T2014/109d5374b52040e2a8b737cf90c5618a/" target="_blank">Syllabus</a> for further details</p>
+</div>
+<h3 style="padding-left: 30px;">I cannot submit my assignment / test / other graded item?</h3>
+<div>
+<p>Please check the due date. If the assignment due date&nbsp;has passed you will be unable to submit your assignment or test answers.</p>
+</div>
+<h3 style="padding-left: 30px;">I started the course late, can I get a deadline extension on the graded content?</h3>
+<div>
+<p>Unfortunately, due to the volume of participants in the course we cannot make considerations on a case by case basis.</p>
+</div>
+<h3 style="padding-left: 30px;">When do I get my grade?</h3>
+<div>
+<p>Your grades will be calculated and displayed in the progress bar instantaneously. If you achieved the requisite final course grade you will receive your Honour Code Attestation after the course ends.</p>
+</div>
+</div>
+</div>
+<!--MAPS-->
+<div id="tabs-5">
+<div id="accordion5">
+<h3 style="padding-left: 30px;">How do I use Zeemaps?</h3>
+<div>
+<div><iframe src="//www.youtube.com/embed/Tf8dFMUW7WM?rel=0" width="640" height="360"></iframe></div>
+</div>
+<h3 style="padding-left: 30px;">Why does my post not appear on Zeemaps?</h3>
+<div>
+<p>Someone else posted in the same location as you. Try using the list tool or clicking the posts that overlap your own post to cycle through them and find yours.</p>
+<div><img src="/static/McGillX_FAQ_Zeemaps-List.png" alt="Zeemaps list" /></div>
+</div>
+</div>
+</div>
+<!--HELP-->
+<div id="tabs-6"><ol style="font-size: 22px; font-weight: bold;">
+<li>Please note: The edx system is not optimized for mobile devices (iOS, android or windows phone), ipad or android tablets.</li>
+<li>Make sure you are using Firefox or Chrome.</li>
+</ol>
+<div id="accordion6">
+<h3 style="padding-left: 30px;">I don't know what browser I am using?</h3>
+<div>Install chrome by clicking <a href="https://www.google.com/intl/en/chrome/browser/">here.</a></div>
+</div>
+<ol style="font-size: 22px; font-weight: bold;" start="3">
+<li>Check the FAQs.</li>
+<li>Check the <a href="https://courses.edx.org/courses/McGillX/ATOC185x/2T2014/discussion/forum" target="_blank">discussion forum.</a></li>
+</ol>
+<div id="accordion7">
+<h3 style="padding-left: 30px;">If after performing the above steps you are still having issues click here for further assistance.</h3>
+<div>
+<p>Create a post on the discussion with an appropriate title in the corresponding category (image and step by step directions below).</p>
+<ol>
+<li>Go to the course Discussion tab.</li>
+<li>Select a relevant category.</li>
+<li>Click "New Post."</li>
+<li>Title: Please provide the location within the courseware (the topic/subtopic) of the item which you are referencing.</li>
+<li>State the issue.</li>
+<li>Click "Add post."</li>
+</ol>
+<img src="/static/McGillX_FAQ_Issues-Directions.png" alt="Issues Directions Diagram" />
+</div>
+</div>
+</div>
+</div>
+
