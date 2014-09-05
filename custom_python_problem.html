@@ -1,0 +1,367 @@
+<problem markdown="null" max_attempts="3" weight="3.0">
+  <script type="loncapa/python">
+def checkAnswer(expect, answer):
+    try:
+        return math.fabs(float(expect)-float(answer)) &lt;= 0.01
+    except ValueError:
+        return False
+		
+def checkAnswerCarbs(expect, answer):
+    try:
+        old_answer = 49
+        return (math.fabs(float(expect)-float(answer)) &lt;= 0.01 or math.fabs(float(old_answer)-float(answer)) &lt;= 0.01)
+    except ValueError:
+        return False
+		
+def checkAnswerProtein(expect, answer):
+    try:
+        old_answer = 12
+        return (math.fabs(float(expect)-float(answer)) &lt;= 0.01 or math.fabs(float(old_answer)-float(answer)) &lt;= 0.01)
+    except ValueError:
+        return False
+</script>
+  <p>
+    Andrew is a 21 year old student and adopted a vegan diet three years ago. Since it is difficult to find vegan options at restaurants he makes an effort to prepare his meals at home and packs a lunch/dinner when he attends classes.
+</p>
+  <div align="center">
+    <table border="1" cellspacing="0" cellpadding="0">
+      <tbody>
+        <tr>
+          <td width="337" colspan="4">
+            <div align="center">
+              <strong>Food Diary</strong>
+              <br/>
+              <strong>Wednesday, January 22</strong>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td width="337" colspan="4" valign="top" bgcolor="#DAEEF3">
+                   
+                        Breakfast = 775 calories (kcal)
+                    
+                </td>
+        </tr>
+        <tr>
+          <td width="253" colspan="3" valign="top">
+                   
+                        Oatmeal
+                    <br/>
+                        1 Cup
+                    
+                </td>
+          <td width="84">
+            <div align="center">310</div>
+          </td>
+        </tr>
+        <tr>
+          <td width="253" colspan="3" valign="top">
+                   
+                        Goji berries
+                    <br/>
+                        1 oz. (28g)
+                    
+                </td>
+          <td width="84">
+            <div align="center">100</div>
+          </td>
+        </tr>
+        <tr>
+          <td width="253" colspan="3" valign="top">
+                   
+                        Almonds (raw)
+                    <br/>
+                        Â¼ cup
+                    
+                </td>
+          <td width="84">
+            <div align="center">210</div>
+          </td>
+        </tr>
+        <tr>
+          <td width="253" colspan="3" valign="top">
+                   
+                        Dried unsweetened coconut
+                    <br/>
+                       10g
+                    
+                </td>
+          <td width="84">
+            <div align="center">75</div>
+          </td>
+        </tr>
+        <tr>
+          <td width="253" colspan="3" valign="top">
+                   
+                        Blueberries
+                    <br/>
+                        Â¼ cup
+                    
+                </td>
+          <td width="84">
+            <div align="center">40</div>
+          </td>
+        </tr>
+        <tr>
+          <td width="253" colspan="3" valign="top">
+                   
+                       Almond milk
+                    <br/>
+                        1 cup
+                    
+                </td>
+          <td width="84">
+            <div align="center">40</div>
+          </td>
+        </tr>
+        <tr>
+          <td width="337" colspan="4" valign="top" bgcolor="#B6DDE8">
+                   
+                        Lunch = 385 calories (kcal)
+                    
+                </td>
+        </tr>
+        <tr>
+          <td width="253" colspan="3" valign="top">
+                   
+                        Smoothie:
+                    
+                    
+                </td>
+          <td width="84">
+                    
+                        
+                    
+                </td>
+        </tr>
+        <tr>
+          <td width="253" colspan="3" valign="top">
+                   
+                        Canned pumpkin
+                    <br/>
+                       Â½ cup
+                    
+                </td>
+          <td width="84">
+            <div align="center">30</div>
+          </td>
+        </tr>
+        <tr>
+          <td width="253" colspan="3" valign="top">
+                   
+                        Chia seeds
+                    <br/>
+                       1 Tbsp
+                    
+                </td>
+          <td width="84">
+            <div align="center">60</div>
+          </td>
+        </tr>
+        <tr>
+          <td width="253" colspan="3" valign="top">
+                   
+                        Almond Butter
+                    <br/>
+                      2 Tbsp (30g)
+                    
+                </td>
+          <td width="84">
+            <div align="center">190</div>
+          </td>
+        </tr>
+        <tr>
+          <td width="253" colspan="3" valign="top">
+                   
+                        Banana
+                    <br/>
+                       1 medium 
+                    
+                </td>
+          <td width="84">
+            <div align="center">105</div>
+          </td>
+        </tr>
+        <tr>
+          <td width="337" colspan="4" valign="top" bgcolor="#92CDDC">
+                   
+                        Dinner = 818 calories (kcal)
+                    
+                </td>
+        </tr>
+        <tr>
+          <td width="253" colspan="3" valign="top">
+                   
+                        Lettuce, mixed greens (shredded)
+                    <br/>
+                        1 cup
+                    
+                </td>
+          <td width="84">
+            <div align="center">5</div>
+          </td>
+        </tr>
+        <tr>
+          <td width="253" colspan="3" valign="top">
+                   
+                        Olive Oil
+                    <br/>
+                        1 Tbsp
+                    
+                </td>
+          <td width="84">
+            <div align="center">120</div>
+          </td>
+        </tr>
+        <tr>
+          <td width="253" colspan="3" valign="top">
+                   
+                        Grilled Teriyaki Tofu
+                    <br/>
+                        1 cup
+                    
+                </td>
+          <td width="84">
+            <div align="center">188</div>
+          </td>
+        </tr>
+        <tr>
+          <td width="253" colspan="3" valign="top">
+                   
+                        Sundried tomatoes
+                    <br/>
+                        Â½ cup
+                    
+                </td>
+          <td width="84">
+            <div align="center">70</div>
+          </td>
+        </tr>
+        <tr>
+          <td width="253" colspan="3" valign="top">
+                   
+                        Avocado
+                    <br/>
+                       3 oz. 
+                    
+                </td>
+          <td width="84">
+            <div align="center">150</div>
+          </td>
+        </tr>
+        <tr>
+          <td width="253" colspan="3" valign="top">
+                   
+                        Apple
+                    <br/>
+                        1 medium
+                    
+                </td>
+          <td width="84">
+            <div align="center">115</div>
+          </td>
+        </tr>
+        <tr>
+          <td width="253" colspan="3" valign="top">
+                   
+                        Whole wheat pita bread
+                    <br/>
+                        1 piece
+                    
+                </td>
+          <td width="84">
+            <div align="center">170</div>
+          </td>
+        </tr>
+        <tr>
+          <td width="337" colspan="4" valign="top" bgcolor="#92CDDC">
+            <div align="center">
+              <strong>Daily Summary</strong>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td width="84" valign="top" bgcolor="#92CDDC">
+            <div align="center">Calories</div>
+          </td>
+          <td width="84" valign="top" bgcolor="#92CDDC">
+            <div align="center">Carbs (g)</div>
+          </td>
+          <td width="84" valign="top" bgcolor="#92CDDC">
+            <div align="center">Protein (g)</div>
+          </td>
+          <td width="84" valign="top" bgcolor="#92CDDC">
+            <div align="center">Fat (g)</div>
+          </td>
+        </tr>
+        <tr>
+          <td width="84" valign="top" bgcolor="#92CDDC">
+            <div align="center">1978</div>
+          </td>
+          <td width="84" valign="top" bgcolor="#92CDDC">
+            <div align="center">219</div>
+          </td>
+          <td width="84" valign="top" bgcolor="#92CDDC">
+            <div align="center">55</div>
+          </td>
+          <td width="84" valign="top" bgcolor="#92CDDC">
+            <div align="center">98</div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p>
+  Based on the entries in the food diary for profile #2, calculate the percentage of calories from each macronutrient. Round your answer to the nearest whole number (10.4 rounds down to 10 and 10.5 rounds up to 11) and do not include the % sign when entering values.
+</p>
+  <div align="center">
+    <table border="1" cellspacing="0" cellpadding="0">
+      <tbody>
+        <tr>
+          <td width="157" valign="top">
+            <strong>Profile #2</strong>
+          </td>
+          <td width="126" valign="top">
+            <strong>Calories (in %)</strong>
+          </td>
+        </tr>
+        <tr>
+          <td width="157" valign="top">
+               
+                    Carbohydrates
+                
+            </td>
+          <td width="126" valign="top">
+            <customresponse cfn="checkAnswerCarbs" expect="12345">
+              <textline size="5" correct_answer="12345"/>
+            </customresponse>
+          </td>
+        </tr>
+        <tr>
+          <td width="157" valign="top">
+               
+                    Protein
+                
+            </td>
+          <td width="126" valign="top">
+            <customresponse cfn="checkAnswerProtein" expect="12345">
+              <textline size="5" correct_answer="12345"/>
+            </customresponse>
+          </td>
+        </tr>
+        <tr>
+          <td width="157" valign="top">
+               
+                    Fat
+                
+            </td>
+          <td width="126" valign="top">
+            <customresponse cfn="checkAnswer" expect="12345">
+              <textline size="5" correct_answer="13245"/>
+            </customresponse>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</problem>
