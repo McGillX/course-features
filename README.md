@@ -6,7 +6,7 @@ Front-End External tools and features used in McGillX courses. These tools have 
 These features are part of:
 
 <ul><li><a href="https://www.edx.org/course/mcgillx/mcgillx-chem181x-food-thought-2806" target="_blank">CHEM181x - Food for Thought</a> and</li>
-<a href="https://www.edx.org/course/mcgillx/mcgillx-atoc185x-natural-disasters-1589" target="_blank">ATOC185x - Natural Disasters</a>.</li>
+<li><a href="https://www.edx.org/course/mcgillx/mcgillx-atoc185x-natural-disasters-1589" target="_blank">ATOC185x - Natural Disasters</a>.</li>
 </ul>
 
 
