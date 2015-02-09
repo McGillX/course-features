@@ -43,7 +43,7 @@ CHEM181x integration of Storify within a static page. This page is a list of stu
 
 Html of collapsible content, great for displaying additional information/directions. Paste the html into the raw html of an edX content block.
 
-<strong>collapsible_field.html</strong>
+<strong>collapsible_mcgillx_styled_transcript.html</strong>
 
 Collapsible transcript with custom css.
 
