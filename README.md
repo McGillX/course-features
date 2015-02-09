@@ -39,6 +39,10 @@ CHEM181x integration of Rebel Mouse within a static page. This page is a newsfee
 
 CHEM181x integration of Storify within a static page. This page is a list of student discussion posts compiled by course staff about various topics. Storify is a social network service that lets the user create stories or timelines using social media such as Twitter, Facebook and Instagram.
 
+<strong>collapsible_field.html</strong>
+
+Html of collapsible content, great for displaying additional information/directions. Paste the html into the raw html of an edX content block.
+
 <strong>mcgillx_faq_help.html</strong>
 
 McGillX Custom Faq & Help. Built using jQuery. It consists for frequently asked questions, compiled pinned posts and other useful information organized by horizontal tabs and vertical accordions. Written instructions and how-to videos.
