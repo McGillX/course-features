@@ -10,8 +10,8 @@ def checkAnswer(expect, ans):
         #Replace 1 with the desired numerical tolerance
   		tolerance = 1
 		a1 = str(ans)
-        #Removes alpha numerical characters from the answer
-		a1Number = re.sub("[A-Za-z]","", a1)
+        #Removes alpha numerical characters and % sign from the answer
+		a1Number = re.sub("[A-Za-z]|%","", a1)
         #Converts commas to decimal points
   		a1Decimal = re.sub(',',".",a1Number)
   		a1Float=float(a1Decimal)
