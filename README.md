@@ -10,7 +10,7 @@ These features are part of:
 </ul>
 
 
-Custom-Problem-Templates
+[Custom-Problem-Templates](/Custom-Problem-Template)
 -----
 
 <strong>chem181x_custom_python_problem.html</strong>
