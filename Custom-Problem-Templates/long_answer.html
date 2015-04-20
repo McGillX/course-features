@@ -1,0 +1,82 @@
+<problem> 
+<script type="loncapa/python">  
+import re 
+#the check answer functions below will mark any entries in the textboxes as correct
+def checkAnswer1(expect, ans): 
+    response = re.search('', ans) 
+    if response: 
+        return 1 
+    else: 
+        return 0
+def checkAnswer2(expect, ans): 
+    response = re.search('', ans) 
+    if response: 
+        return 1 
+    else: 
+        return 0
+</script> 
+  
+    <!--Every textbox needs 2 unique identifier tags, edit the ids in the span tags and in the javascript below to add a 3rd textbox-->
+    <!--unique_identifier_1--> 
+<script type="text/javascript"> 
+    /* Replace 1 single line textinput with multiline textbox*/ 
+   (function() { 
+    var elem = $("#unique_identifier_1") 
+        .closest("div.problem #unique_identifier_1_refine_1") 
+        .find(":text"); 
+    /* Adjust the number of rows and cols below as needed*/ 
+    var textarea = $('<textarea style="height:150px" rows="20" cols="70" />'); 
+    console.log(elem); 
+    console.log(textarea); 
+    for (attrib in {'id':null, 'name':null}) { 
+        textarea.attr(attrib, elem.attr(attrib)); 
+    } 
+    textarea.val(elem.val()) 
+    elem.replaceWith(textarea); 
+     
+   })(); 
+</script> 
+     
+    <!--unique_identifier_2--> 
+<script type="text/javascript"> 
+    /* Replace 1 single line textinput with multiline textbox*/ 
+   (function() { 
+    var elem = $("#unique_identifier_2") 
+        .closest("div.problem #unique_identifier_2_refine_2") 
+        .find(":text"); 
+    /* Adjust the number of rows and cols below as needed*/ 
+    var textarea = $('<textarea style="height:150px" rows="20" cols="70" />'); 
+    console.log(elem); 
+    console.log(textarea); 
+    for (attrib in {'id':null, 'name':null}) { 
+        textarea.attr(attrib, elem.attr(attrib)); 
+    } 
+    textarea.val(elem.val()) 
+    elem.replaceWith(textarea); 
+     
+   })(); 
+</script> 
+     
+
+<span id="unique_identifier_1_refine_1"> 
+    <span id="unique_identifier_1"> 
+          <p>Question Text</p> 
+          <customresponse cfn="checkAnswer1"> 
+        <textline size="40" correct_answer="Correct Answer Displayed to Students" label="Question Text"/> 
+        </customresponse> 
+          <br/> 
+            <br/> 
+    </span> 
+</span> 
+    
+<span id="unique_identifier_2_refine_2"> 
+    <span id="unique_identifier_2"> 
+      <p>Question Text</p> 
+      <customresponse cfn="checkAnswer2"> 
+    <textline size="40" correct_answer="Correct Answer Displayed to Students" label="Question Text"/> 
+    </customresponse> 
+    </span> 
+</span> 
+        <br/> 
+    <br/> 
+</problem>
