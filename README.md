@@ -10,14 +10,15 @@ These features are part of:
 </ul>
 
 
-###Custom-Problem-Templates
+Custom-Problem-Templates
+-----
 
 <strong>chem181x_custom_python_problem.html</strong>
 
 This is an example of a custom python problem embedded within an HTML table. In this example, students need to fill in the values within a table. The code is either looking for numerical values (within a threshold) or looking for specific keywords in their answer.
 
-###External-Tool-Integration
-
+External-Tool-Integration
+-----
 <strong>atoc185x_game_scoreboard.html</strong>
 
 Google form for students submitting scores and Google Doc spreadsheet embedded for displaying the top scores for the course. These two features are integrated within the same static page on edX.
@@ -34,7 +35,8 @@ CHEM181x integration of Rebel Mouse within a static page. This page is a newsfee
 
 CHEM181x integration of Storify within a static page. This page is a list of student discussion posts compiled by course staff about various topics. Storify is a social network service that lets the user create stories or timelines using social media such as Twitter, Facebook and Instagram.
 
-###Interactions-Page-Displays
+Interactions-Page-Displays
+-----
 
 <strong>atoc185x_course_info_sidebar.html</strong>	
 
