@@ -16,3 +16,8 @@ Creates multiline textboxes for questions that require larger amounts of text.
 [<strong>inline_dropdown.html</strong>](/Custom-Problem-Templates/inline_dropdown.html)
 
 Displays the question text inline with the dropdown menu for selecting answer options.
+
+
+[<strong>short_answer-inline-display.html</strong>](/Custom-Problem-Templates/short_answer-inline-display.html)
+
+Displays question text in line with the space for students to fill in.
