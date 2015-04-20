@@ -12,3 +12,7 @@ Removes alphabetical characters from answers and converts commas to decimal plac
 [<strong>long_answer.html</strong>](/Custom-Problem-Templates/long_answer.html)
 
 Creates multiline textboxes for questions that require larger amounts of text.
+
+[<strong>inline_dropdown.html</strong>](/Custom-Problem-Templates/inline_dropdown.html)
+
+Displays the question text inline with the dropdown menu for selecting answer options.
