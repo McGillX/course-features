@@ -38,7 +38,7 @@ CHEM181x integration of Storify within a static page. This page is a list of stu
 
 <strong>atoc185x_course_info_sidebar.html</strong>	
 
-Enriched sidebar for CHEM181x. Contains a UTC clock for students to be able to sync their local time with the deadlines within your course. Also contains profile pictures from profs and TAs, icons for handouts, links to discussion posts for profs and TAs, etc.
+Enriched sidebar for ATOC185x and CHEM181x. Contains a UTC clock for students to be able to sync their local time with the deadlines within your course. Also contains profile pictures from profs and TAs, icons for handouts, links to discussion posts for profs and TAs, etc.
 
 <strong>atoc185x_enriched_syllabus.html</strong>
 
