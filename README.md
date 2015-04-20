@@ -17,6 +17,11 @@ Custom-Problem-Templates
 
 This is an example of a custom python problem embedded within an HTML table. In this example, students need to fill in the values within a table. The code is either looking for numerical values (within a threshold) or looking for specific keywords in their answer.
 
+[<strong>Numerical_Answer-Ignore_Alpha_Commas_Percent.html</strong>](/Custom-Problem-Templates/Numerical_Answer-Ignore_Alpha_Commas_Percent.html)
+
+Removes alphabetical characters from answers and converts commas to decimal places.
+
+
 External-Tool-Integration
 -----
 [<strong>atoc185x_game_scoreboard.html</strong>](/External-Tool-Integration/atoc185x_game_scoreboard.html)
