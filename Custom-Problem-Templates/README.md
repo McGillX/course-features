@@ -1,7 +1,10 @@
-###Custom Problem Templates used in McGillX Courses
+Custom-Problem-Templates
+-----
 
-[Numerical_Answer-Ignore_Alpha_Commas_Percent.py](Numerical_Answer-Ignore_Alpha_Comma_Percent.py)
+[<strong>chem181x_custom_python_problem.html</strong>](/Custom-Problem-Templates/chem181x_custom_python_problem.html)
 
-+ Removes alphabetical characters from answers and converts commas to decimal places.
-  
-  
+This is an example of a custom python problem embedded within an HTML table. In this example, students need to fill in the values within a table. The code is either looking for numerical values (within a threshold) or looking for specific keywords in their answer.
+
+[<strong>numerical_answer-ignore_alpha_comma_percent.html</strong>](/Custom-Problem-Templates/Numerical_Answer-Ignore_Alpha_Commas_Percent.html)
+
+Removes alphabetical characters from answers and converts commas to decimal places.
