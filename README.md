@@ -48,6 +48,11 @@ CHEM181x integration of Rebel Mouse within a static page. This page is a newsfee
 
 CHEM181x integration of Storify within a static page. This page is a list of student discussion posts compiled by course staff about various topics. Storify is a social network service that lets the user create stories or timelines using social media such as Twitter, Facebook and Instagram.
 
+[<strong>chem181x-thing_link.html</strong>](/External-Tool-Integration/chem181x-thing_link.html)
+
+CHEM181x integration of ThingLink within a static page. ThingLink aggregates images in an interactive tool with pop text associated with images. https://www.thinglink.com/
+
+
 Interactions-Page-Displays
 -----
 
