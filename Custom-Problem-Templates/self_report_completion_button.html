@@ -1,0 +1,31 @@
+<problem>
+  <script type="text/javascript"> 
+   
+// get the JSinput element // 
+// its ID is stored as the attribute "inputid" in a div with name "JSinput" // 
+jsi_div = parent.document.getElementsByName('JSinput')[0]; 
+jsi_id = jsi_div.getAttribute('inputid'); 
+jsi = parent.document.getElementById(jsi_id);
+jsi.value = "yes" 
+
+</script>
+  <script type="text/python"> 
+import re
+def checkAnswer(expect, ans):
+    return True
+    try:
+        a1=str(ans[0])
+        if a1=="yes":
+            return True
+        else:
+  			return True
+    except ValueError:
+        return True
+    </script>
+  <p style="display:inline">I contributed to the Assignment 5: 'Show us your Market' Map
+   <customresponse cfn="checkAnswer">
+   <textline inline="1" hidden="JSinput"/> 
+  </customresponse>
+  </p>
+  
+</problem>
