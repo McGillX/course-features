@@ -5,7 +5,7 @@ General Guide Lines
 
 :Example: Do not put an image related to a problem in a separate html module if you might just as easily include it in the problem module
 
-  - Use a horizontal line <hr> if you want to visually separate components
+- Use a horizontal line <hr> if you want to visually separate components
 
 
 Debugging
