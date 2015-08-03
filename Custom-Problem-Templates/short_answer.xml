@@ -1,0 +1,30 @@
+<problem>
+<script type="loncapa/python">
+import re
+
+def checkAnswer(expect, ans):
+	re1 = '(answer)'
+	try:
+		a1=str(ans)
+		if re.match(re1, a1, re.IGNORECASE) is not None:
+			return True
+		else:
+			return False
+	except ValueError:
+		return False
+</script>
+
+    <p>Question</p>
+
+  <customresponse cfn="checkAnswer">
+    <textline size="20" correct_answer="answer displayed to students" label="Question"/>
+  </customresponse>
+
+    
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p></p>
+    </div>
+  </solution>
+</problem>
