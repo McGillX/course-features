@@ -18,3 +18,8 @@ Debugging
 ============================
 
 - You can not put ampersands (&) in the label field of 
+
+Resources
+==============
+
+Tool for writing regular expressions: https://regex101.com/#python
